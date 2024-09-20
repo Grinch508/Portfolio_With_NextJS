@@ -1,0 +1,19 @@
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+}
+
+a {
+  text-decoration: none;
+  margin: 1%;
+  padding: 1%;
+  transition: 300ms;
+  font-size: 1em;
+}
+
+nav > .active {
+  font-size: 1.5em;
+  border: solid 2px #000;
+}
